@@ -1,0 +1,151 @@
+/* Бургер тестовый вариант  */
+/* .nav__box {
+  width: 350px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.button {
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 0.5lh 1.5lh;
+  background-color: olivedrab;
+  inline-size: 100%;
+
+}
+
+.button:hover,
+.button:focus-visible,
+.menu__link:hover,
+.menu__link:focus-visible {
+  background-color: olive;
+}
+
+.nav {
+  line-height: 0;
+  overflow: hidden;
+  transition: line-height .5s, color.5s;
+  -webkit-transition: line-height .5s, color.5s;
+  -moz-transition: line-height .5s, color.5s;
+  -ms-transition: line-height .5s, color.5s;
+  -o-transition: line-height .5s, color.5s;
+  color: transparent;
+  background-color: olivedrab;
+  text-transform: uppercase;
+}
+
+.menu__item {
+  overflow: hidden;
+}
+
+.menu__link {
+  display: block;
+  padding: 0.5lh;
+  color: black;
+}
+
+.button.active~.nav {
+  line-height: 1.2;
+  color: black;
+
+} */
+
+/* ещё тестовый бергер */
+/* .burger-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+.burger {
+  z-index: 1;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  background: transparent;
+  width: 40px;
+  height: 26px;
+  margin: 20px 0 0 10px;
+}
+
+.burger::before,
+.burger::after {
+  content: '';
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background: #000;
+}
+
+.burger::before {
+  top: 0;
+  box-shadow: 0 11px 0 #000;
+  transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+}
+
+.burger::after {
+  bottom: 0;
+  transition: bottom .3s .15s, transform .3s;
+}
+
+.burger-checkbox:checked+.burger::before {
+  top: 11px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
+  transition: box-shadow .15s, top .3s, transform .3s .15s;
+}
+
+.burger-checkbox:checked+.burger::after {
+  bottom: 11px;
+  transform: rotate(-45deg);
+  transition: bottom .3s, transform .3s .15s;
+}
+
+.menu-list {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: grid;
+  gap: 12px;
+  padding: 42px 0;
+  margin: 0;
+  background: orange;
+  list-style-type: none;
+  transform: translateX(-100%);
+  transition: .3s;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-item {
+  display: block;
+  padding: 8px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background: rgba(255, 255, 255, .2)
+}
+
+.burger-checkbox:checked~.menu-list {
+  transform: translateX(0);
+} */
+/* тест анимации  */
+.anim {
+  width: 120px;
+  height: 120px;
+  background-color: violet;
+  margin: 50%;
+  animation: one 2s ease-in-out 1s infinite alternate;
+  -webkit-animation: one 2s ease-in-out 1s infinite alternate;
+}
+
+.anim:hover {
+  animation-play-state: paused;
+}
